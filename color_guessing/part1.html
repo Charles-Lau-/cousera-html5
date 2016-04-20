@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+	<head>
+		<title>color guessing game</title>
+	</head>
+	<body onload="do_guess()"> 
+		<script>
+			var color_list = ["red","green","yellow","blue","black","cyan","aqua","lightyellow"];
+			var correct = false;
+			function do_guess(){
+			 while(!correct){
+				var input_color = prompt("I am thinking one of these colors:\n" +
+							 color_list.join() + "\n"+
+							 "Which color am I thinking of?");
+				var correct = check_guess(input_color);
+				if(correct)
+					break;
+				}
+			}
+			function check_guess(g_color){
+				return true;
+			}
+		</script>
+	</body>
+</html>
