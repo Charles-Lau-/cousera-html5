@@ -87,60 +87,11 @@ button.navbar-toggle{
     margin-top:-35px;
 }
 
-@media (min-width:992px) and (max-width:1199px){
-    #logo{
-        background: url("../images/restaurant-logo_medium.png") no-repeat;
-        width:100px;
-        height:100px;
-        margin:5px 5px 5px 0;
-    }
-    .jumbotron{
-        background: url("../images/jumbotron_992.jpg");
-        height:558px;
-    }
-
-}
-
-@media (min-width:768px) and (max-width:991px){
-    .jumbotron{
-       background: url("../images/jumbotron_768.jpg");
-        height:675px;
-    }
-
-    #menu-tile,#specials-tile{
-        width:250px;
-        margin:0 auto 15px;
-    }
 
 
-}
 
-@media (max-width: 767px){
-    .navbar-brand {
-        padding-top: 10px;
-        height: 80px;
-    }
-    .navbar-brand h1{
-       padding-top: 10px;
-        font-size:5vw;/** 1vw is 1% of device width */
-    }
-    .navbar-brand p{
-        text-transform: uppercase;
-        font-size: .6em;
-        margin-top:12px;
-    }
-    .navbar-brand p img{
-        height: 20px;
-    }
-    #collapsable-nav a {
-        font-size:1.2em;
-    }
-    #collapsable-nav a span{
-        font-size:1em;
-        margin-right:5px;
-    }
 
-}
+
 #call-btn{
     background:yellow;
     margin-left:30px;
@@ -204,4 +155,123 @@ button.navbar-toggle{
     background-color:#000;
     color:#fff;
     opacity: .8;
+}
+@media (max-width: 767px){
+    .navbar-brand {
+        padding-top: 10px;
+        height: 80px;
+    }
+    .navbar-brand h1{
+       padding-top: 10px;
+        font-size:5vw;/** 1vw is 1% of device width */
+    }
+    .navbar-brand p{
+        text-transform: uppercase;
+        font-size: .6em;
+        margin-top:12px;
+    }
+    .navbar-brand p img{
+        height: 20px;
+    }
+    #collapsable-nav a {
+        font-size:1.2em;
+    }
+    #collapsable-nav a span{
+        font-size:1em;
+        margin-right:5px;
+    }
+    #menu-tile,#specials-tile{
+        width:360px;
+        margin:0 auto 15px;
+    }
+
+
+}
+@media (min-width:768px) and (max-width:991px){
+    .jumbotron{
+        background: url("../images/jumbotron_768.jpg");
+        height:675px;
+    }
+
+    #menu-tile,#specials-tile{
+        width:360px;
+        margin:0 auto 0;
+    }
+
+
+}
+@media (min-width:992px) and (max-width:1199px){
+    #logo{
+        background: url("../images/restaurant-logo_medium.png") no-repeat;
+        width:100px;
+        height:100px;
+        margin:5px 5px 5px 0;
+    }
+    .jumbotron{
+        background: url("../images/jumbotron_992.jpg");
+        height:558px;
+    }
+    #menu-tile,#specials-tile{
+        width:360px;
+        margin:0 auto 15px;
+    }
+
+}
+.panel-footer{
+    margin-top:30px;
+    padding-top:35px;
+    padding-bottom:30px;
+    background-color:#222;
+    border-top:0;
+}
+.panel-footer div.row{
+    margin-bottom:35px;
+
+}
+#hours,#address{
+    line-height: 2;
+}
+#hours > span,#address > span{
+    font-size:1.3em;
+}
+.panel-footer section hr{
+    width:50%;
+}
+.panel-footer section{
+    text-align:center;
+}
+.category-tile{
+    position:relative;
+    border:2px solid #3f0c1f;
+    overflow:hidden;
+    width:200px;
+    height:200px;
+    margin:0 auto 15px;
+}
+.category-tile span{
+    position:absolute;
+    bottom:0;
+    right:0;
+    width:100%;
+    text-align:center;
+    font-size:1.2em;
+    text-transform: uppercase;
+    background-color:#000;
+    color:#fff;
+    opacity:.8;
+
+}
+.category-tile:hover{
+    box-shadow:0 1px 5px 1px #cccccc;
+
+}
+.category-tile + div{
+    margin-bottom:50px;
+}
+@media (max-width: 445px){
+    .col-md-3 {
+        float:left;
+        width:100%;
+        margin:1px 1px 1px 1px;
+    }
 }
