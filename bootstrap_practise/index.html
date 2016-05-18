@@ -8,17 +8,68 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="fonts/bootstrap-social.css" rel="stylesheet">
+    <link href="fonts/font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
     <title>Ristorante Con Fusion</title>
 </head>
 
 <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="navbar-brand">
+                        <a href="#">Ristonana</a>
+                    </div>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a>
+                    </li>
+                     <li>
+                        <a href="#">About</a>
+                    </li>
+
+                     <li class="dropdown">
+                         <a href="#" class="dropdown-toggle"  data-toggle="dropdown" role="button"
+                            aria-haspopup="true" aria-expanded="false">Menu<span class="caret"></span></a>
+                         <ul class="dropdown-menu">
+                             <li><a href="#">A</a></li>
+                             <li><a href="#">B</a></li>
+                             <li role="separator" class="divider"></li>
+                         </ul>
+                    </li>
+                     <li>
+                        <a href="#">Contact</a>
+                    </li>
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#">Sign In</a>
+                    </li>
+                    <li>
+                        <a href="#">Account</a>
+                    </li>
+                </ul>
+                    </div>
+            </div>
+        </nav>
+
 
     <header class="jumbotron">
 
         <!-- Main component for a primary marketing message or call to action -->
 
-        <div class="container">
+       <div class="container">
             <div class="row row-header" >
                 <div class="col-xs-12 col-sm-8">
                     <h1>Ristorante con Fusion</h1>
@@ -90,18 +141,18 @@
 		              121, Clear Water Bay Road<br>
 		              Clear Water Bay, Kowloon<br>
 		              HONG KONG<br>
-		              Tel.: +852 1234 5678<br>
-		              Fax: +852 8765 4321<br>
-		              Email: <a href="mailto:confusion@food.net">confusion@food.net</a>
+		              <i class="fa fa-phone"></i>Tel.: +852 1234 5678<br>
+		              <i class="fa fa-fax"></i>Fax: +852 8765 4321<br>
+		              <i class="fa fa-envelope"></i>Email: <a href="mailto:confusion@food.net">confusion@food.net</a>
 		           </address>
                 </div>
                 <div class="col-xs-12 col-sm-4">
-                    <div style="padding: 40px 10px;">
-                        <a href="http://google.com/+">Google+</a>
-                        <a href="http://www.facebook.com/profile.php?id=">Facebook</a>
-                        <a href="http://www.linkedin.com/in/">LinkedIn</a>
-                        <a href="http://twitter.com/">Twitter</a>
-                        <a href="http://youtube.com/">YouTube</a>
+                    <div style="padding: 40px 10px;" class="nav navbar-nav">
+                        <a href="http://google.com/+">Google+<i class="fa fa-google-plus"></i></a>
+                        <a href="http://www.facebook.com/profile.php?id=">Facebook<i class="fa fa-facebook"></i></a>
+                        <a href="http://www.linkedin.com/in/">LinkedIn<i class="fa fa-linkedin"></i></a>
+                        <a href="http://twitter.com/">Twitter<i class="fa fa-twitter"></i></a>
+                        <a href="http://youtube.com/">YouTube<i class="fa fa-youtube"></i></a>
                         <a href="mailto:">Mail</a>
                     </div>
                 </div>
